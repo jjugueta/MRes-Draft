@@ -157,7 +157,7 @@
     \vfil
     \begin{center}
     \if@addlogo
-    \includegraphics[width=70mm]{phd_template/images/mq-logo.png}\\ % ADDS UNIVERSITY CREST
+    \includegraphics[width=70mm]{mres/images/mq-logo.png}\\ % ADDS UNIVERSITY CREST
     \fi
       \vfil
       \centering\@supervisor{\supervisor}

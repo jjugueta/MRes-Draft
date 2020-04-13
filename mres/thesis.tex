@@ -29,6 +29,7 @@
 %\usepackage[nolineno,norules]{lgrind}
 %\usepackage{makeidx}
 \usepackage[utf8]{inputenc}
+\usepackage{ebgaramond}
 \usepackage{style/bib}
 \usepackage[UKenglish]{babel}
 \usepackage{csquotes}% Recommended
@@ -66,6 +67,8 @@
             maxcitenames=2,
             hyperref=true]{biblatex}
 \addbibresource{thesis.bib}
+% the code below changes the references from "and" to "&"
+\renewcommand*\finalnamedelim{\addspace\&\space}
 \usepackage{microtype}
 %\setlength{\parskip}{3mm plus0.5mm minus0.5mm}
 %\parindent 0pt
@@ -129,7 +132,7 @@
 % End
 
 % Bibliography
-%\bibliographystyle{style/mybibstyle}
+%\bibliographystyle{authoryear}
 %\bibliography{thesis}
 \printbibliography
 
