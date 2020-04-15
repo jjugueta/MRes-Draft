@@ -109,7 +109,7 @@
 % chapter at top of chapters should be \sc rather than in capitals
 \def\@makechapterhead#1{\global\topskip 7.5pc\relax
   \begingroup
-  \fontsize{\@xivpt}{18}\bfseries\centering
+  \LARGE\bfseries\centering
     \ifnum\c@secnumdepth>\m@ne
       \leavevmode \hskip-\leftskip
       \rlap{\vbox to\z@{\vss
