@@ -6,8 +6,8 @@
 
 %\def\sid{200342291}
 
-\def\supervisor{Dr. Ulrike Garde}
-\def\assocsupervisora{Dr. Maryam Khalid}
+\def\supervisor{Dr. Ulrike Garde and Dr. Maryam Khalid}
+
 %\def\assocsupervisorb{Optional third supervisor}
 
 \documentclass[logo]{style/usydthesis}
@@ -34,6 +34,7 @@
 \usepackage[UKenglish]{babel}
 \usepackage{csquotes}% Recommended
 \usepackage{ccicons}
+\usepackage{lscape}
 \usepackage{animate}
 %\usepackage{media9}
 \usepackage{movie15}
@@ -60,6 +61,7 @@
 \newenvironment{myquote}{\list{}{\leftmargin=2.5cm\rightmargin=2.5cm}\item[]}{\endlist}
 \usepackage[style=authoryear,
             backend=biber,
+            style=authoryear-ibid,
 %            firstinits=true,
 %            terseinits=true,
             uniquename=false,
@@ -87,13 +89,14 @@
 % Start
 %\input{src/glossary.tex}
 %\makeglossaries
+
 \begin{document}
 
 % initial page numbers:  i, ii, iii, ...
 \renewcommand{\thepage}{\roman{page}}	
 %%%%%%%%%%%%
 % Title page
-\title{{\bf\Huge The game off the field: East Germany, cultural diplomacy and football}}
+\title{{\bf\Huge The game off the field: The German Democratic Republic, cultural diplomacy and football}}
 \author{Jan Martin Jugueta}
 
 \maketitle
@@ -116,16 +119,17 @@
 % Chapters
 
 \setcounter{page}{1}
-\setcounter{chapter}{0}
+
 
 % main page numbers:  1, 2, 3, ...
 \renewcommand{\thepage}{\arabic{page}}	
 \setupParagraphs
-
+\setcounter{chapter}{0}
 \input{src/introduction.tex}
-\input{src/litreview.tex}
-\input{src/methods.tex}
-\input{src/results.tex}
+\input{src/background.tex}
+\input{src/catanalysis.tex}
+\input{src/articles.tex}
+\input{src/theory.tex}
 \input{src/conclusion.tex}
 
 %%%%%%%%%%%%

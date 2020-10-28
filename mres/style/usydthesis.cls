@@ -138,7 +138,7 @@
   October\or November\or December\fi\space\number\year}
 
 %\def\@sid#1{\textsc{sid}: #1}
-\def\@supervisor#1{Supervisor: #1}
+\def\@supervisor#1{Supervisors: #1}
 \def\@assocsupervisora#1{Associate Supervisor: #1}
 \def\@assocsupervisorb#1{Associate Supervisor: #1}
 % thesis title page
