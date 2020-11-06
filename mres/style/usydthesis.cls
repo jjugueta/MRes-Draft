@@ -95,7 +95,7 @@
   \endgroup
 \fi
 }
-\def\l@chapter{\@tocline{0}{8pt plus1pt}{0pt}{}{\bfseries}}
+\def\l@chapter{\@tocline{0}{6pt plus1pt}{0pt}{}{\bfseries}}
 \def\l@subsection{\@tocline{2}{0pt}{30pt}{}{}}
 % tocline parameters:
 %   1: depth (0=chapter, 1=section, etc.)
